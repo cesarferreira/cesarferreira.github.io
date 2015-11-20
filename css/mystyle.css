@@ -1,0 +1,17 @@
+body {
+  background-color: #eee;
+}
+
+#hotlinks {
+    margin: 0 0 0 0;
+}
+
+a i {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover .fa-circle {
+  color: #0080FF;
+}
+
