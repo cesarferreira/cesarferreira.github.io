@@ -9,6 +9,11 @@
           "url": "https://github.com/cesarferreira/dryrun"
         },
         {
+          "title": "lasertag",
+          "description": "Automatically map <strong>android app versions</strong> to <strong>git tags</strong>.",
+          "url": "https://github.com/cesarferreira/lasertag"
+        },
+        {
           "title": "j2j",
           "description": "Convert any <strong>Files.json</strong> to corresponding <strong>Classe.java</strong> files.",
           "url": "https://github.com/cesarferreira/j2j"
