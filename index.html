@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" media="screen" />
     <link href="css/mystyle.css" rel="stylesheet" media="screen" />
+    <script src="js/jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="/images/photo.jpg">
+    <link rel="icon" type="image/png" href="images/photo.jpg">
     <meta charset="UTF-8" />
   </head>
   <body>
@@ -16,7 +17,7 @@
         <div class="container" id="page-splash">
           <div class="row">
             <div class="col-xs-3 col-sm-3 col-md-2">
-              <img src="/images/photo.jpg" width="500" height="500" class="img-responsive img-rounded img-my-portrait" alt="You? Me me me...">
+              <img src="images/photo.jpg" width="500" height="500" class="img-responsive img-rounded img-my-portrait" alt="You? Me me me...">
             </div>
             <div class="col-xs-9 col-sm-9 col-md-10">
               <h1>César Ferreira</h1>
@@ -70,118 +71,58 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
-              <h4>Tools</h4>
-              <ul>
-                <li>
-                  <a href="https://github.com/cesarferreira/dryrun">dryrun</a> -
-                  <strong>Try</strong> any
-                  <strong>android</strong> library on your
-                  <strong>smartphone</strong>
-                  <strong>directly</strong> from the
-                  <strong>command line</strong>.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/j2j">j2j</a> - Convert any
-                  <strong>Files.json</strong> to corresponding
-                  <strong>Classe.java</strong> files.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/apu">apu</a> - clear app data; install/uninstall app; find package name, launcher activity path; create signed release apk; etc.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/clean-idea">clean-idea</a> - Wipe all of your Android Studio files
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/react-native-logcat">react-native logcat</a> - Colored Logcat for react-native android.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/alfi">alfi</a> -
-                  <strong>A</strong>ndroid
-                  <strong>L</strong>ibrary
-                  <strong>Fi</strong>nder.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/pod-tools">Pod tools</a> - Set of Cocoapods tools (clean, reinstall, clean derived data, etc.).
-                </li>
-              </ul>
-              <!--
-              <h4>Apps</h4>
-              <ul>
-                <li>
-                  <a href="http://cesarferreira.com/files/apps/hey-im-here.apk">Hey I'm here!</a> - An android app for finding your way to the party, keeping track of family at a crowded amusement park, or getting picked up at the airport.
-                </li>
-              </ul>-->
-              <h4>Libraries</h4>
-              <ul>
-              <li>
-                  <a href="https://github.com/cesarferreira/RxPaper">RxPaper</a> - <strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/RxPeople">RxPeople</a> - A
-                  <strong>Reactive</strong> android library with fluent API for generating random user data.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/CatKit">CatKit</a> - Android
-                  <strong>kit</strong> for
-                  <strong>cat</strong> placeholders
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/colorize">Colorize</a> - Android quick access to
-                  <strong>1000+</strong> preloaded
-                  <strong>colors</strong>!
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/Pretender">Pretender</a> - Android
-                  <strong>Lorem Ipsum</strong>, but for
-                  <strong>people</strong>
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/SwiftEventBus">SwiftEventBus</a> - A publish/subscribe
-                  <strong>EventBus</strong> optimized for
-                  <strong>iOS</strong>.
-                </li>
-                <li>
-                  <a href="https://github.com/cesarferreira/AndroidQuickUtils">AndroidQuickUtils</a> - Android Development Framework.
-                </li>
-              </ul>
-              <h4>Blog posts</h4>
-              <ul>
-                <li>
-                  <a href="https://medium.com/@cesarmcferreira/taming-android-layout-resources-af249d6db21d#.vb780dvsl">Taming android layout resources</a> - how to correctly organize your resources
-                </li>
-                <li>
-                  <a href="https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d">Package by features, not layers</a> - like spliting co-workers by profession instead of teams
-                </li>
-                <li>
-                  <a href="https://medium.com/@cesarmcferreira/how-to-get-your-first-50-users-with-rxpeople-e9097ed5cdf3#.hfsua4ipr">How to get your first 50 users with RxPeople</a> - a reactive android Library for generating random user data
-                </li>
-                <li>
-                  <a href="https://medium.com/@cesarmcferreira/retrolambda-on-android-191cc8151f85">Retrolambda on Android</a> - Using Java 8 goodies on java 6/7
-                </li>
-                <li>
-                  <a href="https://blog.growth.supply/party-tricks-with-rxjava-rxandroid-retrolambda-1b06ed7cd29c">Party tricks with RxJava, RxAndroid & Retrolambda</a> - All the cool kids are doing it, why aren't you?
-                </li>
-                <li>
-                  <a href="https://medium.com/the-engineering-team/android-library-finder-6c208ba16023">Android Library Finder</a> - Fastest way to get your dependencies
-                </li>
-                <li>
-                  <a href="https://medium.com/@cesarmcferreira/speeding-up-gradle-builds-619c442113cb">How I save 5h/week on Gradle builds</a> - From 4 minutes to 8 seconds
-                </li>
-              </ul>
-              <h4>Education</h4>
-              <ul>
-                <li>Masters in Mobile Computing</li>
-                <li>Bachelor's degree, Computer Science</li>
-              </ul>
-              <br/>
+            <div id="personal_container" class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+
             </div>
           </div>
         </div>
+
+        <br/>
+        <br/>
       </div>
-      <div class="modal fade" id="shared-modal">
-      </div>
+
     </div>
+
+    <script type="text/javascript">
+    $(function(){
+
+      $.getJSON("data.json", function(data) {
+        var items = [];
+
+        $.each(data, function(key, categories) {
+          $.each(categories, function(key, category) {
+
+            items.push("<h4>" + category.title + "</h4>");
+
+            items.push("<ul>");
+
+            $.each(category.items, function(key, item) {
+
+              items.push("<li>");
+
+              if (!item.url && !item.description) {
+                items.push(item.title);
+              } else {
+                items.push("<a href='"+item.url+"'>"+item.title+"</a> - "+item.description);
+              }
+
+              items.push("</li>");
+
+            });
+            items.push("</ul>");
+
+          });
+
+        });
+
+        $("#personal_container").html(items.join("\n"));
+
+      });
+
+    });
+
+    </script>
+
     <script>
     (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;

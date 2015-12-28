@@ -1,0 +1,144 @@
+{
+  "categories": [
+    {
+      "title": "Tools",
+      "items": [
+        {
+          "title": "dryrun",
+          "description": "<strong>Try</strong> any <strong>android</strong> library on your <strong>smartphone</strong> <strong>directly</strong> from the <strong>command line</strong>.",
+          "url": "https://github.com/cesarferreira/dryrun"
+        },
+        {
+          "title": "j2j",
+          "description": "Convert any <strong>Files.json</strong> to corresponding <strong>Classe.java</strong> files.",
+          "url": "https://github.com/cesarferreira/j2j"
+        },
+        {
+          "title": "apu",
+          "description": "clear app data; install/uninstall app; find package name, launcher activity path; create signed release apk; etc.",
+          "url": "https://github.com/cesarferreira/apu"
+        },
+        {
+          "title": "clean-idea",
+          "description": "Wipe all of your Android Studio files",
+          "url": "https://github.com/cesarferreira/clean-idea"
+        },
+        {
+          "title": "react-native logcat",
+          "description": "Colored Logcat for react-native android.",
+          "url": "https://github.com/cesarferreira/react-native-logcat"
+        },
+        {
+          "title": "alfi",
+          "description": "<strong>A</strong>ndroid <strong>L</strong>ibrary <strong>Fi</strong>nder.",
+          "url": "https://github.com/cesarferreira/alfi"
+        },
+        {
+          "title": "Pod tools",
+          "description": "Set of Cocoapods tools (clean, reinstall, clean derived data, etc.).",
+          "url": "https://github.com/cesarferreira/pod-tools"
+        }
+      ]
+    },
+    {
+      "title": "Libraries",
+      "items": [
+        {
+          "title": "RxPaper",
+          "description": "<strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.",
+          "url": "https://github.com/cesarferreira/RxPaper"
+        },
+        {
+          "title": "RxPeople",
+          "description": "A <strong>Reactive</strong> android library with fluent API for generating random user data.",
+          "url": "https://github.com/cesarferreira/RxPeople"
+        },
+        {
+          "title": "CatKit",
+          "description": "Android <strong>kit</strong> for <strong>cat</strong> placeholders",
+          "url": "https://github.com/cesarferreira/CatKit"
+        },
+        {
+          "title": "Colorize",
+          "description": "Android quick access to <strong>1000+</strong> preloaded <strong>colors</strong>!",
+          "url": "https://github.com/cesarferreira/colorize"
+        },
+        {
+          "title": "Pretender",
+          "description": "Android <strong>Lorem Ipsum</strong>, but for <strong>people</strong>",
+          "url": "https://github.com/cesarferreira/Pretender"
+        },
+        {
+          "title": "SwiftEventBus",
+          "description": "A publish/subscribe <strong>EventBus</strong> optimized for <strong>iOS</strong>.",
+          "url": "https://github.com/cesarferreira/SwiftEventBus"
+        },
+        {
+          "title": "AndroidQuickUtils",
+          "description": "Android Development Framework.",
+          "url": "https://github.com/cesarferreira/AndroidQuickUtils"
+        }
+      ]
+    },
+    {
+      "title": "Blog posts",
+      "items": [
+        {
+          "title": "Gradle tips & tricks to survive the zombie apocalypse",
+          "description": "Rick Grimes can’t help you out, so let’s get it together!",
+          "url": "https://medium.com/p/gradle-tips-tricks-to-survive-the-zombie-apocalypse-3dd996604341"
+        },
+        {
+          "title": "Taming android layout resources",
+          "description": "how to correctly organize your resources",
+          "url": "https://medium.com/@cesarmcferreira/taming-android-layout-resources-af249d6db21d#.vb780dvsl"
+        },
+        {
+          "title": "Package by features, not layers",
+          "description": "like spliting co-workers by profession instead of teams",
+          "url": "https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d"
+        },
+        {
+          "title": "How to get your first 50 users with RxPeople",
+          "description": "a reactive android Library for generating random user data",
+          "url": "https://medium.com/@cesarmcferreira/how-to-get-your-first-50-users-with-rxpeople-e9097ed5cdf3#.hfsua4ipr"
+        },
+        {
+          "title": "Retrolambda on Android",
+          "description": "Using Java 8 goodies on java 6/7",
+          "url": "https://medium.com/@cesarmcferreira/retrolambda-on-android-191cc8151f85"
+        },
+        {
+          "title": "Party tricks with RxJava, RxAndroid & Retrolambda",
+          "description": "All the cool kids are doing it, why aren't you?",
+          "url": "https://blog.growth.supply/party-tricks-with-rxjava-rxandroid-retrolambda-1b06ed7cd29c"
+        },
+        {
+          "title": "Android Library Finder",
+          "description": "Fastest way to get your dependencies",
+          "url": "https://medium.com/the-engineering-team/android-library-finder-6c208ba16023"
+        },
+        {
+          "title": "How I save 5h+/week on Gradle builds",
+          "description": "From 4 minutes to 8 seconds",
+          "url": "https://medium.com/@cesarmcferreira/speeding-up-gradle-builds-619c442113cb"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "items": [
+        {
+          "title": "Masters in Mobile Computing",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "Bachelor's degree, Computer Science",
+          "description": "",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
