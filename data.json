@@ -10,7 +10,7 @@
         },
         {
           "title": "international",
-          "description": "Convert a CSV to localization strings (ios/android)",
+          "description": "Convert a <strong>CSV</strong> to <strong>localization</strong> strings (<strong>ios/android</strong>)",
           "url": "https://github.com/cesarferreira/international"
         },
         {
