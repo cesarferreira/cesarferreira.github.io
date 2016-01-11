@@ -99,6 +99,11 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "Why you should be doing Functional Reactive Programming",
+          "description": "From an Android Developer perspective",
+          "url": "https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001#.7ujmmh64o"
+        },
+        {
           "title": "Gradle tips & tricks to survive the zombie apocalypse",
           "description": "Rick Grimes can’t help you out, so let’s get it together!",
           "url": "https://medium.com/p/gradle-tips-tricks-to-survive-the-zombie-apocalypse-3dd996604341"
