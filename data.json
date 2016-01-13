@@ -99,6 +99,11 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "The top 5 coolest questions I was asked during tech interviews",
+          "description": "Best logical/reasoning questions/puzzles that I’ve been asked ",
+          "url": "https://medium.com/@cesarmcferreira/the-top-5-coolest-questions-i-was-asked-during-tech-interviews-bf7259e4001a#.ndxg7usoc"
+        },
+        {
           "title": "Why you should be doing Functional Reactive Programming",
           "description": "From an Android Developer perspective",
           "url": "https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001#.7ujmmh64o"
