@@ -99,8 +99,13 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "Building Android Apps",
+          "description": " 30 things that experience made me learn the hard way",
+          "url": "https://medium.com/@cesarmcferreira/building-android-apps-30-things-that-experience-made-me-learn-the-hard-way-313680430bf9#.7povn8dzy"
+        },
+        {
           "title": "The top 5 coolest questions I was asked during tech interviews",
-          "description": "Best logical/reasoning questions/puzzles that I’ve been asked ",
+          "description": "Best logical/reasoning questions/puzzles that I’ve been asked",
           "url": "https://medium.com/@cesarmcferreira/the-top-5-coolest-questions-i-was-asked-during-tech-interviews-bf7259e4001a#.ndxg7usoc"
         },
         {
