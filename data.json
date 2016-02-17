@@ -59,6 +59,16 @@
       "title": "Libraries",
       "items": [
         {
+          "title": "timecop",
+          "description": "Count the time deltas from any part of your app.",
+          "url": "https://github.com/cesarferreira/timecop"
+        },
+        {
+          "title": "PainlessPrefs",
+          "description": "Static way to set/get shared preferences.",
+          "url": "https://github.com/cesarferreira/PainlessPrefs"
+        },
+        {
           "title": "RxPaper",
           "description": "<strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.",
           "url": "https://github.com/cesarferreira/RxPaper"
