@@ -69,6 +69,11 @@
       "title": "Libraries",
       "items": [
         {
+          "title": "kotlin-pluralizer",
+          "description": "<strong>kotlin extension</strong> to <strong>pluralize</strong> and <strong>singularize</strong> strings!",
+          "url": "https://github.com/cesarferreira/kotlin-pluralizer"
+        },
+        {
           "title": "RxPaper",
           "description": "<strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.",
           "url": "https://github.com/cesarferreira/RxPaper"
