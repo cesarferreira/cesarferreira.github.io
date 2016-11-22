@@ -124,6 +124,11 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "Mastering the Terminal side of Android development",
+          "description": "It's simply faster",
+          "url": "https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521"
+        },
+        {
           "title": "Native support for java 8 Lambdas on Android",
           "description": "Say goodbye to retrolambda",
           "url": "https://medium.com/@cesarmcferreira/native-support-for-java-8-lambdas-on-android-f439b2d6bbaa#.2q16gzm7w"
