@@ -129,6 +129,11 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "Mastering Git — Why Rebase is amazing",
+          "description": "Rewriting history without a time machine",
+          "url": "https://medium.com/@cesarmcferreira/mastering-git-why-rebase-is-amazing-a954485b128a#.oppoj5u2p"
+        },
+        {
           "title": "Mastering the Terminal side of Android development",
           "description": "It's simply faster",
           "url": "https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521"
