@@ -4,6 +4,11 @@
       "title": "Tools",
       "items": [
         {
+          "title": "gito",
+          "description": "⚡️ git helper tool to clone/open/auto-install/edit with a one-liner",
+          "url": "https://github.com/cesarferreira/gito"
+        },
+        {
           "title": "android-rocket-launcher",
           "description": " 🚀 <strong>Launch</strong> android modules from the terminal",
           "url": "https://github.com/cesarferreira/android-rocket-launcher"
