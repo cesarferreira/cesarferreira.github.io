@@ -4,6 +4,11 @@
       "title": "Tools",
       "items": [
         {
+          "title": "yap-json",
+          "description": "🍋 Pipe your json in the terminal into yap-json to make it pretty",
+          "url": "https://github.com/cesarferreira/yap-json"
+        },
+        {
           "title": "gito",
           "description": "⚡️ git helper tool to clone/open/auto-install/edit with a one-liner",
           "url": "https://github.com/cesarferreira/gito"
