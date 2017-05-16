@@ -139,6 +139,11 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "Native Java 8 arrives on android",
+          "description": "Finally!",
+          "url": "https://medium.com/@cesarmcferreira/native-java-8-arrives-on-android-finally-32e117d074ef"
+        },
+        {
           "title": "Mastering Git — Why Rebase is amazing",
           "description": "Rewriting history without a time machine",
           "url": "https://medium.com/@cesarmcferreira/mastering-git-why-rebase-is-amazing-a954485b128a#.oppoj5u2p"
