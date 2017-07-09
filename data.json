@@ -104,6 +104,11 @@
       "title": "Blog posts",
       "items": [
         {
+          "title": "What terminal am I using?",
+          "description": "Since a lot of you were asking...",
+          "url": "https://medium.com/@cesarmcferreira/what-terminal-am-i-using-cesar-ferreira-2e19e5f58fc5"
+        },
+        {
           "title": "Native Java 8 arrives on android",
           "description": "Finally!",
           "url": "https://medium.com/@cesarmcferreira/native-java-8-arrives-on-android-finally-32e117d074ef"
