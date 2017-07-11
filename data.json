@@ -9,6 +9,11 @@
           "url": "https://github.com/cesarferreira/gradlr"
         },
         {
+          "title": "tray-apk-install",
+          "description": "💎 Fastest way to install APKs",
+          "url": "https://github.com/cesarferreira/tray-apk-install"
+        },
+        {
           "title": "yap-json",
           "description": "🍋 Pipe your json in the terminal\ninto yap-json to make it pretty",
           "url": "https://github.com/cesarferreira/yap-json"
