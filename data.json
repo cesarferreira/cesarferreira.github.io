@@ -9,6 +9,16 @@
           "url": "https://github.com/cesarferreira/gradlr"
         },
         {
+          "title": "node-skeleton",
+          "description": "A yeoman generator for node modules",
+          "url": "https://github.com/cesarferreira/generator-node-skeleton"
+        },
+        {
+          "title": "node-time-log",
+          "description": "nodejs <strong>`console.log()</strong> with a beautiful timestamp",
+          "url": "https://github.com/cesarferreira/node-time-log"
+        },
+        {
           "title": "tray-apk-install",
           "description": "💎 Fastest way to install APKs",
           "url": "https://github.com/cesarferreira/tray-apk-install"
