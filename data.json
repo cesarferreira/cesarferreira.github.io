@@ -14,11 +14,6 @@
           "url": "https://github.com/cesarferreira/generator-node-skeleton"
         },
         {
-          "title": "node-time-log",
-          "description": "nodejs <strong>`console.log()</strong> with a beautiful timestamp",
-          "url": "https://github.com/cesarferreira/node-time-log"
-        },
-        {
           "title": "tray-apk-install",
           "description": "💎 Fastest way to install APKs",
           "url": "https://github.com/cesarferreira/tray-apk-install"
@@ -208,6 +203,11 @@
     {
       "title": "Libraries",
       "items": [
+        {
+          "title": "node-time-log",
+          "description": "nodejs <strong>`console.log()</strong> with a beautiful timestamp",
+          "url": "https://github.com/cesarferreira/node-time-log"
+        },
         {
           "title": "kotlin-pluralizer",
           "description": "☀️ <strong>kotlin extension</strong> to <strong>pluralize</strong>and <strong>singularize</strong> strings.",
