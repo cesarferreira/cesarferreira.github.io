@@ -4,6 +4,16 @@
       "title": "Tools",
       "items": [
         {
+          "title": "git-good",
+          "description": "❄️ Tool to enhance your github workflow",
+          "url": "https://github.com/cesarferreira/git-good"
+        },
+        {
+          "title": "readme-senpai",
+          "description": "Pretty prints markdown in the terminal given a github username/repo",
+          "url": "https://github.com/cesarferreira/readme-senpai"
+        },
+        {
           "title": "gradlr",
           "description": "🌀 Fastest way to run your gradle tasks",
           "url": "https://github.com/cesarferreira/gradlr"
