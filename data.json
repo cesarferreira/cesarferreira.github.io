@@ -215,7 +215,7 @@
       "items": [
         {
           "title": "node-time-log",
-          "description": "nodejs <strong>`console.log()</strong> with a beautiful timestamp",
+          "description": "nodejs <strong>console.log()</strong> with a beautiful timestamp",
           "url": "https://github.com/cesarferreira/node-time-log"
         },
         {
