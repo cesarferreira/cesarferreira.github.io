@@ -15,3 +15,11 @@ a:hover .fa-circle {
   color: #0080FF;
 }
 
+h4 {
+  margin-top: 30px;
+}
+
+#personal_container {
+  /*background-color: red;*/
+  margin: 30px 30px 30px 30px;
+}

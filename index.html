@@ -22,7 +22,7 @@
             <div class="col-xs-9 col-sm-9 col-md-10">
               <h1>César Ferreira</h1>
               <p class="lead">
-                Mobile Software Engineer
+                Senior Software Engineer
               </p>
               <div id="hotlinks">
                 <!-- twitter -->
@@ -70,16 +70,20 @@
             </div>
           </div>
           <div class="row">
-            <div id="personal_container" class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
-
-            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div id="personal_container"></div>
           </div>
         </div>
-
         <br/>
         <br/>
       </div>
-
     </div>
 
     <script type="text/javascript">
@@ -92,11 +96,9 @@
           $.each(categories, function(key, category) {
 
             items.push("<h4>" + category.title + "</h4>");
-
             items.push("<ul>");
 
             $.each(category.items, function(key, item) {
-
               items.push("<li>");
 
               if (!item.url && !item.description) {
@@ -106,18 +108,13 @@
               }
 
               items.push("</li>");
-
             });
             items.push("</ul>");
-
           });
-
         });
 
         $("#personal_container").html(items.join("\n"));
-
       });
-
     });
 
     </script>
