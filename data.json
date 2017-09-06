@@ -4,6 +4,11 @@
       "title": "Tools",
       "items": [
         {
+          "title": "drone",
+          "description": "🍰 The missing package manager for Android Developers",
+          "url": "https://github.com/cesarferreira/drone"
+        },
+        {
           "title": "git-good",
           "description": "🏡 Tool to enhance your github workflow",
           "url": "https://github.com/cesarferreira/git-good"
