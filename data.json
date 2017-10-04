@@ -4,6 +4,11 @@
       "title": "Tools",
       "items": [
         {
+          "title": "purrge",
+          "description": "😼 Quickly purrge android apps from your phone",
+          "url": "https://github.com/cesarferreira/purrge"
+        },
+        {
           "title": "drone",
           "description": "🍰 The missing package manager for Android Developers",
           "url": "https://github.com/cesarferreira/drone"
