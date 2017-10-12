@@ -1,0 +1,107 @@
+{
+	"title": "Blog posts",
+	"items": [
+		{
+			"title": "What terminal am I using?",
+			"description": "Since a lot of you were asking...",
+			"url": "https://medium.com/@cesarmcferreira/what-terminal-am-i-using-cesar-ferreira-2e19e5f58fc5",
+			"tags": ["terminal"]
+		},
+		{
+			"title": "Native Java 8 arrives on android",
+			"description": "Finally!",
+			"url": "https://medium.com/@cesarmcferreira/native-java-8-arrives-on-android-finally-32e117d074ef",
+			"tags": ["android", "gradle"]
+		},
+		{
+			"title": "Mastering Git — Why Rebase is amazing",
+			"description": "Rewriting history without a time machine",
+			"url": "https://medium.com/@cesarmcferreira/mastering-git-why-rebase-is-amazing-a954485b128a#.oppoj5u2p",
+			"tags": ["git"]
+		},
+		{
+			"title": "Mastering the Terminal side of Android development",
+			"description": "It's simply faster",
+			"url": "https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521",
+			"tags": ["android", "terminal", "gradle"]
+		},
+		{
+			"title": "Native support for java 8 Lambdas on Android",
+			"description": "Say goodbye to retrolambda",
+			"url": "https://medium.com/@cesarmcferreira/native-support-for-java-8-lambdas-on-android-f439b2d6bbaa#.2q16gzm7w",
+			"tags": ["android"]
+		},
+		{
+			"title": "Building Mobile Apps - Bringing home the bacon",
+			"description": "How to monetize your apps",
+			"url": "https://medium.com/@cesarmcferreira/building-mobile-apps-bringing-home-the-bacon-f23e35be4a74#.1suo10de1",
+			"tags": ["android"]
+		},
+		{
+			"title": "30 things that experience made me learn the hard way",
+			"description": "Building Android Apps",
+			"url": "https://medium.com/@cesarmcferreira/building-android-apps-30-things-that-experience-made-me-learn-the-hard-way-313680430bf9#.7povn8dzy",
+			"tags": ["android"]
+		},
+		{
+			"title": "The top 5 coolest questions I was asked during tech interviews",
+			"description": "Best logical/reasoning questions/puzzles that I’ve been asked",
+			"url": "https://medium.com/@cesarmcferreira/the-top-5-coolest-questions-i-was-asked-during-tech-interviews-bf7259e4001a#.ndxg7usoc",
+			"tags": ["android", "tech"]
+		},
+		{
+			"title": "Why you should be doing Functional Reactive Programming",
+			"description": "From an Android Developer perspective",
+			"url": "https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001#.7ujmmh64o",
+			"tags": ["android"]
+		},
+		{
+			"title": "Gradle tips & tricks to survive the zombie apocalypse",
+			"description": "Rick Grimes can’t help you out, so let’s get it together!",
+			"url": "https://medium.com/p/gradle-tips-tricks-to-survive-the-zombie-apocalypse-3dd996604341",
+			"tags": ["android", "gradle"]
+		},
+		{
+			"title": "Taming android layout resources",
+			"description": "how to correctly organize your resources",
+			"url": "https://medium.com/@cesarmcferreira/taming-android-layout-resources-af249d6db21d#.vb780dvsl",
+			"tags": ["android"]
+		},
+		{
+			"title": "Package by features, not layers",
+			"description": "like spliting co-workers by profession instead of teams",
+			"url": "https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d",
+			"tags": ["android"]
+		},
+		{
+			"title": "How to get your first 50 users with RxPeople",
+			"description": "a reactive android Library\nfor generating random user data",
+			"url": "https://medium.com/@cesarmcferreira/how-to-get-your-first-50-users-with-rxpeople-e9097ed5cdf3#.hfsua4ipr",
+			"tags": ["android"]
+		},
+		{
+			"title": "Retrolambda on Android",
+			"description": "Using Java 8 goodies on java 6/7",
+			"url": "https://medium.com/@cesarmcferreira/retrolambda-on-android-191cc8151f85",
+			"tags": ["android"]
+		},
+		{
+			"title": "Party tricks with RxJava, RxAndroid & Retrolambda",
+			"description": "All the cool kids are doing it, why aren't you?",
+			"url": "https://medium.com/swlh/party-tricks-with-rxjava-rxandroid-retrolambda-1b06ed7cd29c#.x2tumfxie",
+			"tags": ["android"]
+		},
+		{
+			"title": "Android Library Finder",
+			"description": "Fastest way to get your dependencies",
+			"url": "https://medium.com/the-engineering-team/android-library-finder-6c208ba16023",
+			"tags": ["android", "terminal"]
+		},
+		{
+			"title": "How I save 5h+/week on Gradle builds",
+			"description": "From 4 minutes\nto 8 seconds",
+			"url": "https://medium.com/@cesarmcferreira/speeding-up-gradle-builds-619c442113cb",
+			"tags": ["android", "gradle"]
+		}
+	]
+}
