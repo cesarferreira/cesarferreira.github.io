@@ -1,0 +1,149 @@
+{
+	"title": "Tools",
+	"items": [
+		{
+			"title": "GoPlaces",
+			"description": "💪 Launch apps on your phone/emulator from the terminal",
+			"url": "https://github.com/cesarferreira/goplaces",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "purrge",
+			"description": "😼 Quickly purrge android apps from your phone",
+			"url": "https://github.com/cesarferreira/purrge",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "drone",
+			"description": "🍰 The missing package manager for Android Developers",
+			"url": "https://github.com/cesarferreira/drone",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "git-good",
+			"description": "🏡 Tool to enhance your github workflow",
+			"url": "https://github.com/cesarferreira/git-good",
+			"tags": ["nodejs", "git"]
+		},
+		{
+			"title": "readme-senpai",
+			"description": "Pretty prints markdown in the terminal given a github username/repo",
+			"url": "https://github.com/cesarferreira/readme-senpai",
+			"tags": ["git", "nodejs"]
+		},
+		{
+			"title": "gradlr",
+			"description": "🌀 Fastest way to run your gradle tasks",
+			"url": "https://github.com/cesarferreira/gradlr",
+			"tags": ["android", "nodejs", "gradle"]
+		},
+		{
+			"title": "node-cli-skeleton",
+			"description": "A yeoman generator for a node cli app",
+			"url": "https://github.com/cesarferreira/generator-node-cli-skeleton",
+			"tags": ["nodejs"]
+		},
+		{
+			"title": "node-skeleton",
+			"description": "A yeoman generator for node modules",
+			"url": "https://github.com/cesarferreira/generator-node-skeleton",
+			"tags": ["nodejs"]
+		},
+		{
+			"title": "tray-apk-install",
+			"description": "💎 Fastest way to install APKs",
+			"url": "https://github.com/cesarferreira/tray-apk-install",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "yap-json",
+			"description": "🍋 Pipe your json in the terminal\ninto yap-json to make it pretty",
+			"url": "https://github.com/cesarferreira/yap-json",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "gito",
+			"description": "⚡️ git helper tool to clone/open/auto-install/edit with a one-liner",
+			"url": "https://github.com/cesarferreira/gito",
+			"tags": ["ruby", "git"]
+		},
+		{
+			"title": "android-rocket-launcher",
+			"description": "🚀 <strong>Launch</strong> android modules from the terminal",
+			"url": "https://github.com/cesarferreira/android-rocket-launcher",
+			"tags": ["android", "plugin"]
+		},
+		{
+			"title": "dryrun",
+			"description": "☕ <strong>Try</strong> any <strong>android</strong> library on your <strong>smartphone</strong> <strong>directly</strong> from the <strong>command line</strong>.",
+			"url": "https://github.com/cesarferreira/dryrun",
+			"tags": ["android", "ruby"]
+		},
+		{
+			"title": "monzo-cli",
+			"description": "💳 Monzo bank command line interface client",
+			"url": "https://github.com/cesarferreira/monzo-cli",
+			"tags": ["ruby"]
+		},
+		{
+			"title": "android-latest",
+			"description": "🍉 Latest android versions for development (buildTools, TargetSdk, etc.)",
+			"url": "https://github.com/cesarferreira/android-latest",
+			"tags": ["android"]
+		},
+		{
+			"title": "international",
+			"description": "Convert a <strong>CSV</strong> to <strong>localization</strong> strings (<strong>ios/android</strong>)",
+			"url": "https://github.com/cesarferreira/international",
+			"tags": ["android", "ruby"]
+		},
+		{
+			"title": "generator-android-library",
+			"description": "<strong>Boilerplate</strong> code for <strong>creating</strong> an <strong>android library</strong>",
+			"url": "https://github.com/cesarferreira/generator-android-library",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "lasertag",
+			"description": "Automatically map <strong>android app versions</strong> to <strong>git tags</strong>.",
+			"url": "https://github.com/cesarferreira/lasertag",
+			"tags": ["android", "ios"]
+		},
+		{
+			"title": "j2j",
+			"description": "Convert any <strong>Files.json</strong> to corresponding <strong>Classe.java</strong> files.",
+			"url": "https://github.com/cesarferreira/j2j",
+			"tags": ["java", "ruby"]
+		},
+		{
+			"title": "apu",
+			"description": "clear app data; install/uninstall app; find package name, launcher activity path; create signed release apk; etc.",
+			"url": "https://github.com/cesarferreira/apu",
+			"tags": ["android", "ruby"]
+		},
+		{
+			"title": "clean-idea",
+			"description": "Wipe all of your Intellij Idea  files",
+			"url": "https://github.com/cesarferreira/clean-idea",
+			"tags": ["android", "ruby"]
+		},
+		{
+			"title": "react-native logcat",
+			"description": "Colored Logcat for react-native android.",
+			"url": "https://github.com/cesarferreira/react-native-logcat",
+			"tags": ["nodejs"]
+		},
+		{
+			"title": "alfi",
+			"description": "<strong>A</strong>ndroid\n<strong>L</strong>ibrary <strong>Fi</strong>nder.",
+			"url": "https://github.com/cesarferreira/alfi",
+			"tags": ["android", "ruby"]
+		},
+		{
+			"title": "Pod tools",
+			"description": "Set of Cocoapods tools (clean, reinstall, clean derived data, etc.).",
+			"url": "https://github.com/cesarferreira/pod-tools",
+			"tags": ["ios", "ruby"]
+		}
+	]
+}

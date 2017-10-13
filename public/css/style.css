@@ -1,0 +1,67 @@
+#latest-repos-container h2 {
+	margin-bottom: 2rem;
+}
+
+#latest-repos h4 {
+	margin-bottom: 0.5rem;
+}
+
+.language {
+	color: white;	
+}
+
+.nodejs {
+	background-color: rgb(241, 224, 90) !important;
+}
+
+.plugin {
+	background-color: rgb(233, 163, 13) !important;
+	color: white;	
+}
+
+.android {
+	background-color: rgba(28, 177, 11, 0.947) !important;
+	color: white;		
+}
+
+.kotlin {
+	background-color: rgba(0, 157, 205, 0.947) !important;
+	color: white;		
+}
+
+.gradle {
+	background-color: rgba(14, 91, 4, 0.947) !important;
+	color: white;
+}
+
+.ios {
+	background-color: rgb(97, 90, 216) !important;
+	color: white;	
+}
+
+.ruby {
+	background-color: rgb(187, 10, 30) !important;
+	color: white;	
+}
+
+.java {
+	background-color: rgb(0, 0, 0) !important;
+	color: white;	
+}
+
+.terminal {
+	background-color: rgb(0, 0, 0) !important;
+	color: white;	
+}
+
+
+.git {
+	background-color: rgba(0, 0, 0, 0.399) !important;
+	color: white;	
+}
+
+.new {
+	background-color:#23d160;
+}
+
+

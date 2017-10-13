@@ -1,138 +1,653 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>César Ferreira</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" media="screen" />
-    <link href="css/mystyle.css" rel="stylesheet" media="screen" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <link rel="icon" type="image/png" href="images/photo.jpg">
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <div class="grid-monitor">
-      <input id="url_base" type="hidden" value="/" />
-      <div class="content">
-        <div class="container" id="page-splash">
-          <div class="row">
-            <div class="col-xs-3 col-sm-3 col-md-2">
-              <img src="images/photo.jpg" width="500" height="500" class="img-responsive img-rounded img-my-portrait" alt="You? Me me me...">
-            </div>
-            <div class="col-xs-9 col-sm-9 col-md-10">
-              <h1>César Ferreira</h1>
-              <p class="lead">
-                Senior Software Engineer
-              </p>
-              <div id="hotlinks">
-                <!-- twitter -->
-                <span class="fa-stack fa-lg">
-                  <a title="twitter" href="http://twitter.com/cesarmcferreira">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </a>
-                </span>
-                <!-- github -->
-                <span class="fa-stack fa-lg">
-                  <a title="github" href="https://github.com/cesarferreira">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </a>
-                </span>
-                <!-- email -->
-                <span class="fa-stack fa-lg">
-                  <a title="email" href="mailto:cesar.manuel.ferreira@gmail.com">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </a>
-                </span>
-                <!-- medium -->
-                <span class="fa-stack fa-lg">
-                  <a title="medium" href="https://medium.com/@cesarmcferreira">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
-                  </a>
-                </span>
-                <!-- linkedin -->
-                <span class="fa-stack fa-lg">
-                  <a title="linkedin" href="http://linkedin.com/in/cesarferreira">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </a>
-                </span>
-                <!-- rubygems -->
-                <span class="fa-stack fa-lg">
-                  <a title="rubygems" href="https://rubygems.org/profiles/cesarferreira">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
-                  </a>
-                </span>
-            </div>
-          </div>
-          <div class="row">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <div id="personal_container"></div>
-          </div>
-        </div>
-        <br/>
-        <br/>
-      </div>
-    </div>
+<!doctype html>
+<html lang="en">
 
-    <script type="text/javascript">
-    $(function(){
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#3273DC">
+	<meta name="author" content="Cesar Ferreira">
+	<meta name="description" content="Senior android engineer">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Cesar Ferreira">
+	<meta property="og:url" content="https://cesarferreira.com/">
+	<meta property="og:description" content="Senior android engineer">
+	<meta property="og:image" content="/public/assets/images/photo.jpg">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@cesarmcferreira">
+	<meta name="twitter:creator" content="@cesarmcferreira">
+	<link rel="icon" href="/public/assets/images/photo.jpg" sizes="32x32">
+	<title>Cesar Ferreira</title>
+	<link rel="stylesheet" href="/public/css/main.css">
+	<link rel="stylesheet" href="/public/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="/public/js/AnchorScroller.js"></script>
 
-      $.getJSON("https://raw.githubusercontent.com/cesarferreira/cesarferreira.github.io/master/data.json", function(data) {
-        var items = [];
-
-        $.each(data, function(key, categories) {
-          $.each(categories, function(key, category) {
-
-            items.push("<h4>" + category.title + "</h4>");
-            items.push("<ul>");
-
-            $.each(category.items, function(key, item) {
-              items.push("<li>");
-
-              if (!item.url && !item.description) {
-                items.push(item.title);
-              } else {
-                items.push("<a href='"+item.url+"'>"+item.title+"</a> - "+item.description);
-              }
-
-              items.push("</li>");
-            });
-            items.push("</ul>");
-          });
-        });
-
-        $("#personal_container").html(items.join("\n"));
-      });
-    });
-
-    </script>
-
-    <script>
-    (function(i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-    (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-    m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+	<script>
+		window.ga = window.ga || function () {
+			(ga.q = ga.q || []).push(arguments)
+		};
+		ga.l = +new Date;
     ga('create', 'UA-18248446-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-  </body>
+		ga('send', 'pageview');
+	</script>
+	<script defer src="https://www.google-analytics.com/analytics.js"></script>
+</head>
+<body>
+	<section class="hero">
+		<div class="hero-head">
+			<div class="container">
+				<nav class="nav has-shadow">
+					<div class="container">
+						<div class="nav-left">
+							<a id="unicorn-btn" class="nav-item" href="https://cesarferreira.com/" title="Click me!">/</a>
+						</div>
+						<span class="nav-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+						<div class="nav-right nav-menu">
+							<a class="nav-item is-tab" href="/">Home</a>
+							<a class="nav-item is-tab" href="/#tools">Tools</a>
+							<a class="nav-item is-tab" href="/#blog">Blog posts</a>
+							<a class="nav-item is-tab" href="/#libraries">Libraries</a>
+							<a class="nav-item is-tab" href="/#misc">Misc</a>
+							<a class="nav-item is-tab" href="https://medium.com/@cesarmcferreira/about-me-a56da6d0028b">About</a>
+							<span class="nav-item">
+								<a class="button" href="/contact">Contact</a>
+							</span>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</section>
+	<section class="hero is-fullheight is-default">
+		<div class="hero-body">
+			<div id="info-container" class="container has-text-centered">
+				<div class="columns is-vcentered">
+					<div class="column is-two-thirds is-centered has-nice-link" itemscope itemtype="http://schema.org/Person">
+						<img id="profile-pic" src="/public/assets/images/photo.jpg" width="160" height="160" itemprop="image">
+						<h1 class="title is-2" itemprop="name">Cesar Ferreira</h1>
+						<h2 class="subtitle is-4" itemprop="description">Senior Android Engineer</h2>
+						<p>Currently working @SkyUK #london
+
+							<br class="is-hidden-small-screen"> My favorite things right now are <strong>Android</strong> and <strong>Node.js</strong>.
+						</p>
+						<br>
+						<p class="has-text-centered">
+							<!-- MEDIUM -->
+							<a class="button is-large is-white" href="https://medium.com/@cesarmcferreira/" title="medium">
+								<span class="icon">
+									<i class="fa fa-pencil"></i>
+								</span>
+							</a>
+							<!-- GITHUB -->
+							<a class="button is-large is-white" href="https://github.com/cesarferreira" title="github">
+								<span class="icon">
+									<i class="fa fa-github"></i>
+								</span>
+							</a>
+							<!-- TWITTER -->
+							<a class="button is-large is-white" href="https://twitter.com/cesarmcferreira" title="twitter">
+								<span class="icon">
+									<i class="fa fa-twitter"></i>
+								</span>
+							</a>
+							<!-- EMAIL -->
+							<a class="button is-large is-white" href="mailto:cesar.manuel.ferreira@gmail.com" title="email">
+								<span class="icon">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</a>
+							<!-- RUBYGEMS -->
+							<a class="button is-large is-white" href="https://rubygems.org/profiles/cesarferreira" title="rubygems">
+								<span class="icon">
+									<i class="fa fa-diamond"></i>
+								</span>
+							</a>
+							<!-- LINKEDIN -->
+							<a class="button is-large is-white" href="http://linkedin.com/in/cesarferreira" title="linkedin">
+								<span class="icon">
+									<i class="fa fa-linkedin"></i>
+								</span>
+							</a>
+							<!-- NPM -->
+							<a class="button is-large is-white" href="https://www.npmjs.com/~cesarferreira" title="npm">
+								<span class="icon">
+									<i class="fa fa-area-chart"></i>
+								</span>
+							</a>
+						</p>
+						<hr id="latest-blog-post-separator">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero-foot">
+			<div class="container">
+				<div class="tabs is-centered">
+					<ul>
+						<li>
+							<i id="scroll-hint" class="fa fa-caret-down" aria-hidden="true"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- TOOLS -->
+	<section class="hero is-fullheight is-gray">
+		<div id="tools" class="hero-body container">
+			<div class="columns is-vcentered">
+				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
+					<h2 class="title is-2">Tools</h2>
+
+					<div id="latest-repos" class="columns is-multiline">
+						
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/goplaces">GoPlaces</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">💪 Launch apps on your phone/emulator from the terminal</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/purrge">purrge</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">😼 Quickly purrge android apps from your phone</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/drone">drone</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">🍰 The missing package manager for Android Developers</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/git-good">git-good</a>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+										<span class="tag is-small latest-repos-language git">git</span>
+								</h4>
+								<p class="latest-repos-description">🏡 Tool to enhance your github workflow</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/readme-senpai">readme-senpai</a>
+										<span class="tag is-small latest-repos-language git">git</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">Pretty prints markdown in the terminal given a github username/repo</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/gradlr">gradlr</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+										<span class="tag is-small latest-repos-language gradle">gradle</span>
+								</h4>
+								<p class="latest-repos-description">🌀 Fastest way to run your gradle tasks</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/generator-node-cli-skeleton">node-cli-skeleton</a>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">A yeoman generator for a node cli app</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/generator-node-skeleton">node-skeleton</a>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">A yeoman generator for node modules</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/tray-apk-install">tray-apk-install</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">💎 Fastest way to install APKs</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/yap-json">yap-json</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">🍋 Pipe your json in the terminal
+into yap-json to make it pretty</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/gito">gito</a>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+										<span class="tag is-small latest-repos-language git">git</span>
+								</h4>
+								<p class="latest-repos-description">⚡️ git helper tool to clone/open/auto-install/edit with a one-liner</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/android-rocket-launcher">android-rocket-launcher</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language plugin">plugin</span>
+								</h4>
+								<p class="latest-repos-description">🚀 <strong>Launch</strong> android modules from the terminal</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/dryrun">dryrun</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">☕ <strong>Try</strong> any <strong>android</strong> library on your <strong>smartphone</strong> <strong>directly</strong> from the <strong>command line</strong>.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/monzo-cli">monzo-cli</a>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">💳 Monzo bank command line interface client</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/android-latest">android-latest</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">🍉 Latest android versions for development (buildTools, TargetSdk, etc.)</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/international">international</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">Convert a <strong>CSV</strong> to <strong>localization</strong> strings (<strong>ios/android</strong>)</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/generator-android-library">generator-android-library</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description"><strong>Boilerplate</strong> code for <strong>creating</strong> an <strong>android library</strong></p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/lasertag">lasertag</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ios">ios</span>
+								</h4>
+								<p class="latest-repos-description">Automatically map <strong>android app versions</strong> to <strong>git tags</strong>.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/j2j">j2j</a>
+										<span class="tag is-small latest-repos-language java">java</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">Convert any <strong>Files.json</strong> to corresponding <strong>Classe.java</strong> files.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/apu">apu</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">clear app data; install/uninstall app; find package name, launcher activity path; create signed release apk; etc.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/clean-idea">clean-idea</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">Wipe all of your Intellij Idea  files</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/react-native-logcat">react-native logcat</a>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">Colored Logcat for react-native android.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/alfi">alfi</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description"><strong>A</strong>ndroid
+<strong>L</strong>ibrary <strong>Fi</strong>nder.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/pod-tools">Pod tools</a>
+										<span class="tag is-small latest-repos-language ios">ios</span>
+										<span class="tag is-small latest-repos-language ruby">ruby</span>
+								</h4>
+								<p class="latest-repos-description">Set of Cocoapods tools (clean, reinstall, clean derived data, etc.).</p>
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- BLOG -->
+	<section class="hero is-fullheight is-bold">
+		<div id="blog" class="hero-body container">
+			<div class="columns is-vcentered">
+				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
+					<h2 class="title is-2">Blog posts</h2>
+
+					<div id="latest-repos" class="columns is-multiline">
+						
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/what-terminal-am-i-using-cesar-ferreira-2e19e5f58fc5">What terminal am I using?</a>
+										<span class="tag is-small latest-repos-language terminal">terminal</span>
+								</h4>
+								<p class="latest-repos-description">Since a lot of you were asking...</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/native-java-8-arrives-on-android-finally-32e117d074ef">Native Java 8 arrives on android</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language gradle">gradle</span>
+								</h4>
+								<p class="latest-repos-description">Finally!</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/mastering-git-why-rebase-is-amazing-a954485b128a#.oppoj5u2p">Mastering Git — Why Rebase is amazing</a>
+										<span class="tag is-small latest-repos-language git">git</span>
+								</h4>
+								<p class="latest-repos-description">Rewriting history without a time machine</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521">Mastering the Terminal side of Android development</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language terminal">terminal</span>
+										<span class="tag is-small latest-repos-language gradle">gradle</span>
+								</h4>
+								<p class="latest-repos-description">It's simply faster</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/native-support-for-java-8-lambdas-on-android-f439b2d6bbaa#.2q16gzm7w">Native support for java 8 Lambdas on Android</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Say goodbye to retrolambda</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/building-mobile-apps-bringing-home-the-bacon-f23e35be4a74#.1suo10de1">Building Mobile Apps - Bringing home the bacon</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">How to monetize your apps</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/building-android-apps-30-things-that-experience-made-me-learn-the-hard-way-313680430bf9#.7povn8dzy">30 things that experience made me learn the hard way</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Building Android Apps</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/the-top-5-coolest-questions-i-was-asked-during-tech-interviews-bf7259e4001a#.ndxg7usoc">The top 5 coolest questions I was asked during tech interviews</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language tech">tech</span>
+								</h4>
+								<p class="latest-repos-description">Best logical/reasoning questions/puzzles that I’ve been asked</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/why-you-should-be-doing-functional-reactive-programming-858bd9bb8001#.7ujmmh64o">Why you should be doing Functional Reactive Programming</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">From an Android Developer perspective</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/p/gradle-tips-tricks-to-survive-the-zombie-apocalypse-3dd996604341">Gradle tips &amp; tricks to survive the zombie apocalypse</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language gradle">gradle</span>
+								</h4>
+								<p class="latest-repos-description">Rick Grimes can’t help you out, so let’s get it together!</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/taming-android-layout-resources-af249d6db21d#.vb780dvsl">Taming android layout resources</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">how to correctly organize your resources</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d">Package by features, not layers</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">like spliting co-workers by profession instead of teams</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/how-to-get-your-first-50-users-with-rxpeople-e9097ed5cdf3#.hfsua4ipr">How to get your first 50 users with RxPeople</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">a reactive android Library
+for generating random user data</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/retrolambda-on-android-191cc8151f85">Retrolambda on Android</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Using Java 8 goodies on java 6/7</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/swlh/party-tricks-with-rxjava-rxandroid-retrolambda-1b06ed7cd29c#.x2tumfxie">Party tricks with RxJava, RxAndroid &amp; Retrolambda</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">All the cool kids are doing it, why aren't you?</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/the-engineering-team/android-library-finder-6c208ba16023">Android Library Finder</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language terminal">terminal</span>
+								</h4>
+								<p class="latest-repos-description">Fastest way to get your dependencies</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://medium.com/@cesarmcferreira/speeding-up-gradle-builds-619c442113cb">How I save 5h+/week on Gradle builds</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language gradle">gradle</span>
+								</h4>
+								<p class="latest-repos-description">From 4 minutes
+to 8 seconds</p>
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!-- LIBRARIES -->
+	<section class="hero is-fullheight is-gray">
+		<div id="tools" class="hero-body container">
+			<div class="columns is-vcentered">
+				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
+					<h2 class="title is-2">Libraries</h2>
+
+					<div id="latest-repos" class="columns is-multiline">
+						
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/android-rocket-launcher">android-rocket-launcher</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language plugin">plugin</span>
+								</h4>
+								<p class="latest-repos-description">🚀 <strong>Launch</strong> android modules from the terminal</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/node-time-log">node-time-log</a>
+										<span class="tag is-small latest-repos-language nodejs">nodejs</span>
+								</h4>
+								<p class="latest-repos-description">nodejs <strong>console.log()</strong> with a beautiful timestamp</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/kotlin-pluralizer">kotlin-pluralizer</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language kotlin">kotlin</span>
+								</h4>
+								<p class="latest-repos-description">☀️ <strong>kotlin extension</strong> to <strong>pluralize</strong> and <strong>singularize</strong> strings.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/RxPaper">RxPaper</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description"><strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/timecop">timecop</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Count the time deltas from any part of your app.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/PainlessPrefs">PainlessPrefs</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Static way to set/get shared preferences.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/RxPeople">RxPeople</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">A <strong>Reactive</strong> android library with fluent API for generating random user data.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/CatKit">CatKit</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Android <strong>kit</strong> for <strong>cat</strong> placeholders</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/colorize">Colorize</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Android quick access to <strong>1000+</strong> preloaded <strong>colors</strong>!</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/Pretender">Pretender</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Android <strong>Lorem Ipsum</strong>, but for <strong>people</strong></p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/SwiftEventBus">SwiftEventBus</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+										<span class="tag is-small latest-repos-language ios">ios</span>
+								</h4>
+								<p class="latest-repos-description">A publish/subscribe <strong>EventBus</strong> optimized for <strong>iOS</strong>.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://github.com/cesarferreira/AndroidQuickUtils">AndroidQuickUtils</a>
+										<span class="tag is-small latest-repos-language android">android</span>
+								</h4>
+								<p class="latest-repos-description">Android Development Utils.</p>
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MISC -->
+	<section class="hero is-fullheight is-bold">
+		<div id="misc" class="hero-body container">
+			<div class="columns is-vcentered">
+				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
+					<h2 class="title is-2">Misc</h2>
+
+					<div id="latest-repos" class="columns is-multiline">
+						
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="http://devgoodies.com">DevGoodies</a>
+								</h4>
+								<p class="latest-repos-description">Trending developer resources from the best sources</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://twitter.com/poundtoeuroBOT">Pound to Euro Watch</a>
+								</h4>
+								<p class="latest-repos-description">Twitter bot that tweets every time the Pound to Euro value fluctuates.</p>
+							</div>
+							<div class="column is-half">
+								<h4 class="title is-4">
+									<a class="latest-repos-title" href="https://twitter.com/androiddevbot">Androiddev bot</a>
+								</h4>
+								<p class="latest-repos-description">Retweeting the #androiddev tag & more.</p>
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="section hero is-fullheight is-default is-bold">
+		<div id="apps" class="container">
+			<h2 class="title is-2">Apps</h2>
+			<div class="columns is-multiline">
+				<div class="column is-mobile is-half-tablet is-one-third-desktop">
+					<a href="/heic-converter">
+						<div class="box">
+							<figure class="image">
+								<img src="/assets/heic-converter/thumbnail.png">
+							</figure>
+							<h2 class="title">
+								<span>HEIC Converter</span>
+								<span class="tag is-small is-success">New!</span>
+								<span class="tag is-small">macOS</span>
+							</h2>
+							<p class="subtitle is-6">Convert HEIC images to JPEG or PNG</p>
+						</div>
+					</a>
+				</div>
+			
+			</div>
+		</div>
+	</section> -->
+</body>
+
 </html>
