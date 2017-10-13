@@ -35,6 +35,7 @@ const renderObj = {
 	libraries: getObjFromFile('data/libraries.json'),
 	misc: getObjFromFile('data/misc.json'),
 	tools: getObjFromFile('data/tools.json'),
+	contacts: getObjFromFile('data/contacts.json')
 }
 
 // render it 

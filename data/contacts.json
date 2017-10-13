@@ -1,0 +1,15 @@
+{
+	"title": "Contacts",
+	"items": [
+		{
+			"title": "Twitter DM",
+			"description": "@cesarmcferreira",
+			"url": "https://twitter.com/messages/compose?recipient_id=19622332"
+		},
+		{
+			"title": "Email",
+			"description": "cesar.manuel.ferreira@gmail.com",
+			"url": "mailto:cesar.manuel.ferreira@gmail.com"
+		}
+	]
+}
