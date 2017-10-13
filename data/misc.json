@@ -11,13 +11,13 @@
 			"title": "Pound to Euro Watch",
 			"description": "Twitter bot that tweets every time the Pound to Euro value fluctuates.",
 			"url": "https://twitter.com/poundtoeuroBOT",
-			"tags": ["bot"]
+			"tags": ["bot", "twitter"]
 		},
 		{
 			"title": "Androiddev bot",
 			"description": "Retweeting the #androiddev tag & more.",
 			"url": "https://twitter.com/androiddevbot",
-			"tags": ["bot"]
+			"tags": ["bot", "twitter"]
 		}
 	]
 }
