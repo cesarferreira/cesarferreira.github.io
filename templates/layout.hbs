@@ -137,16 +137,17 @@
 		</div>
 	</section>
 
+{{#each categories as |category|}}
 	<!-- TOOLS -->
-	<section class="hero is-fullheight is-gray">
-		<div id="tools" class="hero-body container">
+	<section class="hero is-fullheight {{ category.style }}">
+		<div id="{{category.id}}" class="hero-body container">
 			<div class="columns is-vcentered">
 				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
-					<h2 class="title is-2">Tools</h2>
+					<h2 class="title is-2">{{category.title}}</h2>
 
 					<div id="latest-repos" class="columns is-multiline">
 						
-						{{#each tools.items as |item|}}
+						{{#each category.items as |item|}}
 							<div class="column is-half">
 								<h4 class="title is-4">
 									<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
@@ -163,139 +164,8 @@
 			</div>
 		</div>
 	</section>
+	{{/each}}
 
-	<!-- BLOG -->
-	<section class="hero is-fullheight is-bold">
-		<div id="blog" class="hero-body container">
-			<div class="columns is-vcentered">
-				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
-					<h2 class="title is-2">Blog posts</h2>
-
-					<div id="latest-repos" class="columns is-multiline">
-						
-						{{#each blog.items as |item|}}
-							<div class="column is-half">
-								<h4 class="title is-4">
-									<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
-									{{#each item.tags as |tag|}}
-										<span class="tag is-small latest-repos-language {{tag}}">{{tag}}</span>
-									{{/each}}
-								</h4>
-								<p class="latest-repos-description">{{{item.description}}}</p>
-							</div>
-						{{/each}}
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-<!-- LIBRARIES -->
-	<section class="hero is-fullheight is-gray">
-		<div id="libraries" class="hero-body container">
-			<div class="columns is-vcentered">
-				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
-					<h2 class="title is-2">Libraries</h2>
-
-					<div id="latest-repos" class="columns is-multiline">
-						
-						{{#each libraries.items as |item|}}
-							<div class="column is-half">
-								<h4 class="title is-4">
-									<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
-									{{#each item.tags as |tag|}}
-										<span class="tag is-small latest-repos-language {{tag}}">{{tag}}</span>
-									{{/each}}
-								</h4>
-								<p class="latest-repos-description">{{{item.description}}}</p>
-							</div>
-						{{/each}}
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- MISC -->
-	<section class="hero is-fullheight is-bold">
-		<div id="misc" class="hero-body container">
-			<div class="columns is-vcentered">
-				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
-					<h2 class="title is-2">Misc</h2>
-
-					<div id="latest-repos" class="columns is-multiline">
-						
-						{{#each misc.items as |item|}}
-							<div class="column is-half">
-								<h4 class="title is-4">
-									<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
-									{{#each item.tags as |tag|}}
-										<span class="tag is-small latest-repos-language {{tag}}">{{tag}}</span>
-									{{/each}}
-								</h4>
-								<p class="latest-repos-description">{{{item.description}}}</p>
-							</div>
-						{{/each}}
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-<!-- CONTACTS -->
-	<section class="hero is-fullheight is-gray">
-		<div id="contacts" class="hero-body container">
-			<div class="columns is-vcentered">
-				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
-					<h2 class="title is-2">Contacts</h2>
-
-					<div id="latest-repos" class="columns is-multiline">
-						
-						{{#each contacts.items as |item|}}
-							<div class="column is-half">
-								<h4 class="title is-4">
-									<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
-									{{#each item.tags as |tag|}}
-										<span class="tag is-small latest-repos-language {{tag}}">{{tag}}</span>
-									{{/each}}
-								</h4>
-								<p class="latest-repos-description">{{{item.description}}}</p>
-							</div>
-						{{/each}}
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- <section class="section hero is-fullheight is-default is-bold">
-		<div id="apps" class="container">
-			<h2 class="title is-2">Apps</h2>
-			<div class="columns is-multiline">
-				<div class="column is-mobile is-half-tablet is-one-third-desktop">
-					<a href="/heic-converter">
-						<div class="box">
-							<figure class="image">
-								<img src="/assets/heic-converter/thumbnail.png">
-							</figure>
-							<h2 class="title">
-								<span>HEIC Converter</span>
-								<span class="tag is-small is-success">New!</span>
-								<span class="tag is-small">macOS</span>
-							</h2>
-							<p class="subtitle is-6">Convert HEIC images to JPEG or PNG</p>
-						</div>
-					</a>
-				</div>
-			
-			</div>
-		</div>
-	</section> -->
 	</div>
 </body>
 

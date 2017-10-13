@@ -1,11 +1,12 @@
 {
 	"title": "Misc",
+	"id": "misc",
 	"items": [
 		{
 			"title": "DevGoodies",
 			"description": "Trending developer resources from the best sources",
 			"url": "http://devgoodies.com",
-			"tags": ["site", "android", "nodejs", "design"]
+			"tags": ["site", "android", "nodejs"]
 		},
 		{
 			"title": "Pound to Euro Watch",

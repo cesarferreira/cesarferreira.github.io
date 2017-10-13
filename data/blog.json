@@ -1,5 +1,6 @@
 {
 	"title": "Blog posts",
+	"id": "blog",
 	"items": [
 		{
 			"title": "What terminal am I using?",

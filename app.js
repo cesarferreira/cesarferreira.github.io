@@ -19,6 +19,14 @@ function writeToFile(fileName, content) {
 	fs.writeFileSync(fileName, content, 'utf8');
 }
 
+function stylizeCategories(data) {
+	data.categories.forEach((category, i) => {
+		category.style = i % 2 === 0 ? 'is-gray' : 'is-bold';
+	});
+
+	return data;
+}
+
 app.engine('html', require('engine-handlebars'));
 
 // create a template collection 
@@ -29,17 +37,19 @@ app.page(OUTPUT_FILE_PATH, {
 	content: readFromFile(LAYOUT_FILE_PATH)
 });
 
-const renderObj = {
-	blog: getObjFromFile('data/blog.json'),
-	education: getObjFromFile('data/education.json'),
-	libraries: getObjFromFile('data/libraries.json'),
-	misc: getObjFromFile('data/misc.json'),
-	tools: getObjFromFile('data/tools.json'),
-	contacts: getObjFromFile('data/contacts.json')
-}
+let templateData = {
+	categories: [
+		getObjFromFile('data/tools.json'),
+		getObjFromFile('data/blog.json'),
+		getObjFromFile('data/libraries.json'),
+		getObjFromFile('data/misc.json'),
+		getObjFromFile('data/contacts.json')
+	]
+};
 
+templateData = stylizeCategories(templateData);
 // render it 
-app.render(OUTPUT_FILE_PATH, renderObj,
+app.render(OUTPUT_FILE_PATH, templateData,
 	(err, view) => {
 		if (err !== null) {
 			log(err)
