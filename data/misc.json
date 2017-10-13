@@ -4,17 +4,20 @@
 		{
 			"title": "DevGoodies",
 			"description": "Trending developer resources from the best sources",
-			"url": "http://devgoodies.com"
+			"url": "http://devgoodies.com",
+			"tags": ["site", "android", "nodejs", "design"]
 		},
 		{
 			"title": "Pound to Euro Watch",
 			"description": "Twitter bot that tweets every time the Pound to Euro value fluctuates.",
-			"url": "https://twitter.com/poundtoeuroBOT"
+			"url": "https://twitter.com/poundtoeuroBOT",
+			"tags": ["bot"]
 		},
 		{
 			"title": "Androiddev bot",
 			"description": "Retweeting the #androiddev tag & more.",
-			"url": "https://twitter.com/androiddevbot"
+			"url": "https://twitter.com/androiddevbot",
+			"tags": ["bot"]
 		}
 	]
 }
