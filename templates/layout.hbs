@@ -113,11 +113,11 @@
 								</span>
 							</a>
 							<!-- NPM -->
-							<a class="button is-large is-white" href="https://www.npmjs.com/~cesarferreira" title="npm">
+							<!-- <a class="button is-large is-white" href="https://www.npmjs.com/~cesarferreira" title="npm">
 								<span class="icon">
 									<i class="fa fa-certificate"></i>
 								</span>
-							</a>
+							</a> -->
 						</p>
 						<hr id="latest-blog-post-separator">
 					</div>
@@ -137,33 +137,33 @@
 		</div>
 	</section>
 
-{{#each categories as |category|}}
-	<!-- TOOLS -->
-	<section class="hero is-fullheight {{ category.style }}">
-		<div id="{{category.id}}" class="hero-body container">
-			<div class="columns is-vcentered">
-				<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
-					<h2 class="title is-2">{{category.title}}</h2>
+	{{#each categories as |category|}}
+		<!-- TOOLS -->
+		<section class="hero is-fullheight {{ category.style }}">
+			<div id="{{category.id}}" class="hero-body container">
+				<div class="columns is-vcentered">
+					<div id="latest-repos-container" class="column is-offset-1 has-nice-link">
+						<h2 class="title is-2">{{category.title}}</h2>
 
-					<div id="latest-repos" class="columns is-multiline">
-						
-						{{#each category.items as |item|}}
-							<div class="column is-half">
-								<h4 class="title is-4">
-									<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
-									{{#each item.tags as |tag|}}
-										<span class="tag is-small latest-repos-language {{tag}}">{{tag}}</span>
-									{{/each}}
-								</h4>
-								<p class="latest-repos-description">{{{item.description}}}</p>
-							</div>
-						{{/each}}
+						<div id="latest-repos" class="columns is-multiline">
+							
+							{{#each category.items as |item|}}
+								<div class="column is-half">
+									<h4 class="title is-4">
+										<a class="latest-repos-title" href="{{item.url}}">{{item.title}}</a>
+										{{#each item.tags as |tag|}}
+											<span class="tag is-small latest-repos-language {{tag}}">{{tag}}</span>
+										{{/each}}
+									</h4>
+									<p class="latest-repos-description">{{{item.description}}}</p>
+								</div>
+							{{/each}}
 
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	{{/each}}
 
 	</div>
