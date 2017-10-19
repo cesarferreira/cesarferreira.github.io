@@ -3,6 +3,12 @@
 	"id": "libraries",
 	"items": [
 		{
+			"title": "node-adb-api",
+			"description": "A node API for adb (android debug bridge)",
+			"url": "https://github.com/cesarferreira/node-adb-api",
+			"tags": ["android", "nodejs"]
+		},
+		{
 			"title": "android-rocket-launcher",
 			"description": "🚀 <strong>Launch</strong> android modules from the terminal",
 			"url": "https://github.com/cesarferreira/android-rocket-launcher",
