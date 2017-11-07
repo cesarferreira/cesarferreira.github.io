@@ -3,21 +3,15 @@
 	"id": "tools",
 	"items": [
 		{
-			"title": "purrge",
-			"description": "😼 Quickly purrge android apps from your phone",
-			"url": "https://github.com/cesarferreira/purrge",
-			"tags": ["android", "nodejs"]
-		},
-		{
-			"title": "GoPlaces",
-			"description": "💪 Launch apps on your phone/emulator from the terminal",
-			"url": "https://github.com/cesarferreira/goplaces",
-			"tags": ["android", "nodejs"]
-		},
-		{
 			"title": "drone",
 			"description": "🍰 The missing package manager for Android Developers",
 			"url": "https://github.com/cesarferreira/drone",
+			"tags": ["android", "nodejs"]
+		},
+		{
+			"title": "purrge",
+			"description": "😼 Quickly purrge android apps from your phone",
+			"url": "https://github.com/cesarferreira/purrge",
 			"tags": ["android", "nodejs"]
 		},
 		{
