@@ -130,7 +130,7 @@
 		},
 		{
 			"title": "alfi",
-			"description": "<strong>A</strong>ndroid\n<strong>L</strong>ibrary <strong>Fi</strong>nder.",
+			"description": "<strong>A</strong>ndroid<strong>L</strong>ibrary <strong>Fi</strong>nder.",
 			"url": "https://github.com/cesarferreira/alfi",
 			"tags": ["android", "ruby"]
 		},
