@@ -9,6 +9,12 @@
 			"tags": ["android", "nodejs"]
 		},
 		{
+			"title": "github2slack",
+			"description": "Notify a slack channel when a label is added to a github pull request",
+			"url": "https://github.com/prepare-to-cry/github2slack",
+			"tags": ["bot", "nodejs", "git"]
+		},
+		{
 			"title": "purrge",
 			"description": "😼 Quickly purrge android apps from your phone",
 			"url": "https://github.com/cesarferreira/purrge",
