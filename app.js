@@ -42,7 +42,7 @@ let templateData = {
 		getObjFromFile('data/tools.json'),
 		getObjFromFile('data/blog.json'),
 		getObjFromFile('data/libraries.json'),
-		getObjFromFile('data/misc.json'),
+		// getObjFromFile('data/misc.json'),
 		getObjFromFile('data/contacts.json')
 	]
 };
