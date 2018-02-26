@@ -3,6 +3,12 @@
 	"id": "blog",
 	"items": [
 		{
+			"title": "Using Gradle Build Cache Server",
+			"description": "Fastest way to work is to avoid doing work that doesn’t need to be done",
+			"url": "https://medium.com/@cesarmcferreira/using-gradle-build-cache-server-73d7680baf2a",
+			"tags": ["android", "gradle"]
+		},
+		{
 			"title": "What terminal am I using?",
 			"description": "Since a lot of you were asking...",
 			"url": "https://medium.com/@cesarmcferreira/what-terminal-am-i-using-cesar-ferreira-2e19e5f58fc5",
