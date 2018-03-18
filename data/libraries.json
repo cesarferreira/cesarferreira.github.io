@@ -3,6 +3,12 @@
 	"id": "libraries",
 	"items": [
 		{
+			"title": "faker",
+			"description": "A kotlin extension to load images asynchronously on android",
+			"url": "https://github.com/cesarferreira/faker",
+			"tags": ["android", "kotlin"]
+		},
+		{
 			"title": "node-adb-api",
 			"description": "A node API for adb (android debug bridge)",
 			"url": "https://github.com/cesarferreira/node-adb-api",
