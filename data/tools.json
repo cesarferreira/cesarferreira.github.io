@@ -3,6 +3,12 @@
 	"id": "tools",
 	"items": [
 		{
+			"title": "facelift",
+			"description": "Quick github-pages generator",
+			"url": "https://github.com/cesarferreira/facelift",
+			"tags": ["generator", "nodejs", "web", "gh-pages"]
+		},
+		{
 			"title": "drone",
 			"description": "🍰 The missing package manager for Android Developers",
 			"url": "https://github.com/cesarferreira/drone",
