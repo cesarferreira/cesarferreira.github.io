@@ -1,90 +1,101 @@
 {
-	"title": "Libraries",
-	"id": "libraries",
-	"items": [
-		{
-			"title": "faker",
-			"description": "A kotlin extension to load images asynchronously on android",
-			"url": "https://github.com/cesarferreira/faker",
-			"tags": ["android", "kotlin"]
-		},
-		{
-			"title": "node-adb-api",
-			"description": "A node API for adb (android debug bridge)",
-			"url": "https://github.com/cesarferreira/node-adb-api",
-			"tags": ["android", "nodejs"]
-		},
-		{
-			"title": "android-rocket-launcher",
-			"description": "🚀 <strong>Launch</strong> android modules from the terminal",
-			"url": "https://github.com/cesarferreira/android-rocket-launcher",
-			"tags": ["android", "plugin"]
-		},
-		{
-			"title": "node-time-log",
-			"description": "nodejs <strong>console.log()</strong> with a beautiful timestamp",
-			"url": "https://github.com/cesarferreira/node-time-log",
-			"tags": ["nodejs"]
-		},
-		{
-			"title": "kotlin-pluralizer",
-			"description": "☀️ <strong>kotlin extension</strong> to <strong>pluralize</strong> and <strong>singularize</strong> strings.",
-			"url": "https://github.com/cesarferreira/kotlin-pluralizer",
-			"tags": ["android", "kotlin"]
-		},
-		{
-			"title": "RxPaper",
-			"description": "<strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.",
-			"url": "https://github.com/cesarferreira/RxPaper",
-			"tags": ["android"]
-		},
-		{
-			"title": "timecop",
-			"description": "Count the time deltas from any part of your app.",
-			"url": "https://github.com/cesarferreira/timecop",
-			"tags": ["android"]
-		},
-		{
-			"title": "PainlessPrefs",
-			"description": "Static way to set/get shared preferences.",
-			"url": "https://github.com/cesarferreira/PainlessPrefs",
-			"tags": ["android"]
-		},
-		{
-			"title": "RxPeople",
-			"description": "A <strong>Reactive</strong> android library with fluent API for generating random user data.",
-			"url": "https://github.com/cesarferreira/RxPeople",
-			"tags": ["android"]
-		},
-		{
-			"title": "CatKit",
-			"description": "Android <strong>kit</strong> for <strong>cat</strong> placeholders",
-			"url": "https://github.com/cesarferreira/CatKit",
-			"tags": ["android"]
-		},
-		{
-			"title": "Colorize",
-			"description": "Android quick access to <strong>1000+</strong> preloaded <strong>colors</strong>!",
-			"url": "https://github.com/cesarferreira/colorize",
-			"tags": ["android"]
-		},
-		{
-			"title": "Pretender",
-			"description": "Android <strong>Lorem Ipsum</strong>, but for <strong>people</strong>",
-			"url": "https://github.com/cesarferreira/Pretender",
-			"tags": ["android"]
-		},
-		{
-			"title": "SwiftEventBus",
-			"description": "A publish/subscribe <strong>EventBus</strong> optimized for <strong>iOS</strong>.",
-			"url": "https://github.com/cesarferreira/SwiftEventBus",
-			"tags": ["android", "ios"]
-		},
-		{
-			"title": "AndroidQuickUtils",
-			"description": "Android Development Utils.",
-			"url": "https://github.com/cesarferreira/AndroidQuickUtils",
-			"tags": ["android"]
-		}
-	]
+    "title": "Libraries",
+    "id": "libraries",
+    "items": [{
+            "title": "BannerView",
+            "description": "A banner displays a prominent message and related optional actions",
+            "url": "https://github.com/cesarferreira/MaterialComponent.Banner",
+            "tags": [
+                "android",
+                "kotlin", "material-design"
+            ]
+        },
+        {
+            "title": "faker",
+            "description": "A kotlin extension to load images asynchronously on android",
+            "url": "https://github.com/cesarferreira/faker",
+            "tags": [
+                "android",
+                "kotlin"
+            ]
+        },
+        {
+            "title": "node-adb-api",
+            "description": "A node API for adb (android debug bridge)",
+            "url": "https://github.com/cesarferreira/node-adb-api",
+            "tags": ["android", "nodejs"]
+        },
+        {
+            "title": "android-rocket-launcher",
+            "description": "🚀 <strong>Launch</strong> android modules from the terminal",
+            "url": "https://github.com/cesarferreira/android-rocket-launcher",
+            "tags": ["android", "plugin"]
+        },
+        {
+            "title": "node-time-log",
+            "description": "nodejs <strong>console.log()</strong> with a beautiful timestamp",
+            "url": "https://github.com/cesarferreira/node-time-log",
+            "tags": ["nodejs"]
+        },
+        {
+            "title": "kotlin-pluralizer",
+            "description": "☀️ <strong>kotlin extension</strong> to <strong>pluralize</strong> and <strong>singularize</strong> strings.",
+            "url": "https://github.com/cesarferreira/kotlin-pluralizer",
+            "tags": ["android", "kotlin"]
+        },
+        {
+            "title": "RxPaper",
+            "description": "<strong>Reactive extension</strong> for <strong>NoSQL</strong> data storage on Android.",
+            "url": "https://github.com/cesarferreira/RxPaper",
+            "tags": ["android"]
+        },
+        {
+            "title": "timecop",
+            "description": "Count the time deltas from any part of your app.",
+            "url": "https://github.com/cesarferreira/timecop",
+            "tags": ["android"]
+        },
+        {
+            "title": "PainlessPrefs",
+            "description": "Static way to set/get shared preferences.",
+            "url": "https://github.com/cesarferreira/PainlessPrefs",
+            "tags": ["android"]
+        },
+        {
+            "title": "RxPeople",
+            "description": "A <strong>Reactive</strong> android library with fluent API for generating random user data.",
+            "url": "https://github.com/cesarferreira/RxPeople",
+            "tags": ["android"]
+        },
+        {
+            "title": "CatKit",
+            "description": "Android <strong>kit</strong> for <strong>cat</strong> placeholders",
+            "url": "https://github.com/cesarferreira/CatKit",
+            "tags": ["android"]
+        },
+        {
+            "title": "Colorize",
+            "description": "Android quick access to <strong>1000+</strong> preloaded <strong>colors</strong>!",
+            "url": "https://github.com/cesarferreira/colorize",
+            "tags": ["android"]
+        },
+        {
+            "title": "Pretender",
+            "description": "Android <strong>Lorem Ipsum</strong>, but for <strong>people</strong>",
+            "url": "https://github.com/cesarferreira/Pretender",
+            "tags": ["android"]
+        },
+        {
+            "title": "SwiftEventBus",
+            "description": "A publish/subscribe <strong>EventBus</strong> optimized for <strong>iOS</strong>.",
+            "url": "https://github.com/cesarferreira/SwiftEventBus",
+            "tags": ["android", "ios"]
+        },
+        {
+            "title": "AndroidQuickUtils",
+            "description": "Android Development Utils.",
+            "url": "https://github.com/cesarferreira/AndroidQuickUtils",
+            "tags": ["android"]
+        }
+    ]
 }
