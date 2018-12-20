@@ -5,7 +5,7 @@
             "title": "release-notes",
             "description": "Tool to get release notes based on commit messages between commits",
             "url": "https://github.com/cesarferreira/release-notes",
-            "tags": ["generator", "nodejs", "screenshots"]
+            "tags": ["notes", "nodejs"]
         },
         {
             "title": "awsnap",
