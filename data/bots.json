@@ -1,0 +1,18 @@
+{
+    "title": "Bots",
+    "id": "bots",
+    "items": [{
+        "title": "GithubTrending",
+        "description": "Bot that tweets every time there's a new trending github repository",
+        "url": "https://twitter.com/GithubTrending",
+        "tags": ["bot", "twitter", "github"]
+    }, {
+        "title": "Foodbot",
+        "description": "A slack bot that knows what street food is available @ Paddington Central",
+        "url": "https://github.com/cesarferreira/foodbot",
+        "tags": [
+            "bot",
+            "food"
+        ]
+    }]
+}
