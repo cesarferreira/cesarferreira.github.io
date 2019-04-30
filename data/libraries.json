@@ -2,12 +2,22 @@
     "title": "Libraries",
     "id": "libraries",
     "items": [{
+            "title": "UserAgentForAndroid",
+            "description": "Easily add app context to your android API calls",
+            "url": "https://github.com/cesarferreira/UserAgentForAndroid",
+            "tags": [
+                "android",
+                "kotlin",
+                "networking"
+            ]
+        }, {
             "title": "BannerView",
             "description": "A banner displays a prominent message and related optional actions",
             "url": "https://github.com/cesarferreira/MaterialComponent.Banner",
             "tags": [
                 "android",
-                "kotlin", "material-design"
+                "kotlin",
+                "material-design"
             ]
         },
         {
