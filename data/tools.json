@@ -2,10 +2,23 @@
     "title": "Tools",
     "id": "tools",
     "items": [{
+            "title": "interactive-git-tag",
+            "description": "🐙Interactive tool that helps with your git tagging by suggesting versions",
+            "url": "https://github.com/cesarferreira/interactive-git-tag",
+            "tags": [
+                "git",
+                "cli",
+                "nodejs"
+            ]
+        },
+        {
             "title": "release-notes",
             "description": "Tool to get release notes based on commit messages between commits",
             "url": "https://github.com/cesarferreira/release-notes",
-            "tags": ["notes", "nodejs"]
+            "tags": [
+                "notes",
+                "nodejs"
+            ]
         },
         {
             "title": "awsnap",
