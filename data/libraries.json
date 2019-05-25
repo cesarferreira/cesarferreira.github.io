@@ -2,6 +2,17 @@
     "title": "Libraries",
     "id": "libraries",
     "items": [{
+            "title": "seguro",
+            "description": "Secure persistence using AES+CBC encryption on Android with no dependencies.",
+            "url": "https://github.com/cesarferreira/seguro",
+            "tags": [
+                "android",
+                "AES",
+                "encryption",
+                "persistence"
+            ]
+        },
+        {
             "title": "UserAgentForAndroid",
             "description": "Easily add app context to your android API calls",
             "url": "https://github.com/cesarferreira/UserAgentForAndroid",
@@ -10,7 +21,9 @@
                 "kotlin",
                 "networking"
             ]
-        }, {
+        },
+
+        {
             "title": "BannerView",
             "description": "A banner displays a prominent message and related optional actions",
             "url": "https://github.com/cesarferreira/MaterialComponent.Banner",
