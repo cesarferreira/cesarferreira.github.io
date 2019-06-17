@@ -1,26 +1,27 @@
 {
-  "name": "cesarferreirahub.io",
-  "version": "1.0.0",
-  "description": "my website",
-  "main": "index.js",
-  "scripts": {
-    "generate": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cesarferreira/cesarferreira.github.io.git"
-  },
-  "author": "cesar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cesarferreira/cesarferreira.github.io/issues"
-  },
-  "homepage": "https://github.com/cesarferreira/cesarferreira.github.io#readme",
-  "dependencies": {
-    "chalk": "^2.1.0",
-    "engine-handlebars": "^0.8.2",
-    "engine-lodash": "^0.8.2",
-    "templates": "^1.2.9"
-  }
+    "name": "cesarferreirahub.io",
+    "version": "1.0.0",
+    "description": "my website",
+    "main": "index.js",
+    "scripts": {
+        "generate": "node builder.js",
+        "start": "node builder.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cesarferreira/cesarferreira.github.io.git"
+    },
+    "author": "cesar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cesarferreira/cesarferreira.github.io/issues"
+    },
+    "homepage": "https://github.com/cesarferreira/cesarferreira.github.io#readme",
+    "dependencies": {
+        "chalk": "^2.1.0",
+        "engine-handlebars": "^0.8.2",
+        "engine-lodash": "^0.8.2",
+        "templates": "^1.2.9"
+    }
 }

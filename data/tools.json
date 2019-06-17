@@ -2,6 +2,17 @@
     "title": "Tools",
     "id": "tools",
     "items": [{
+            "title": "oh",
+            "description": "Quickly <i>open</i> any app in the folder you're currently in (<i><strong>O</strong>pen <strong>H</strong>ere</i>)</p>",
+            "url": "https://github.com/cesarferreira/oh",
+            "tags": [
+                "open",
+                "cli",
+                "nodejs",
+                "macos"
+            ]
+        },
+        {
             "title": "interactive-git-tag",
             "description": "🐙Interactive tool that helps with your git tagging by suggesting versions",
             "url": "https://github.com/cesarferreira/interactive-git-tag",
