@@ -2,45 +2,34 @@
     "title": "Tools",
     "id": "tools",
     "items": [{
+            "title": "chef-cli",
+            "description": "Quickly convert things into other things",
+            "url": "https://github.com/cesarferreira/chef-cli",
+            "tags": ["cli", "android", "nodejs"]
+        },
+        {
             "title": "open-on-android",
             "description": "Open <i>anything</i> on your android phone",
             "url": "https://github.com/cesarferreira/open-on-android",
-            "tags": [
-                "open",
-                "cli",
-                "android",
-                "nodejs"
-            ]
+            "tags": ["open", "cli", "android", "nodejs"]
         },
         {
             "title": "oh",
             "description": "Quickly <i>open</i> any app in the folder you're currently in (<i><strong>O</strong>pen <strong>H</strong>ere</i>)</p>",
             "url": "https://github.com/cesarferreira/oh",
-            "tags": [
-                "open",
-                "cli",
-                "nodejs",
-                "macos"
-            ]
+            "tags": ["open", "cli", "nodejs", "macos"]
         },
         {
             "title": "interactive-git-tag",
             "description": "🐙Interactive tool that helps with your git tagging by suggesting versions",
             "url": "https://github.com/cesarferreira/interactive-git-tag",
-            "tags": [
-                "git",
-                "cli",
-                "nodejs"
-            ]
+            "tags": ["git", "cli", "nodejs"]
         },
         {
             "title": "release-notes",
             "description": "Tool to get release notes based on commit messages between commits",
             "url": "https://github.com/cesarferreira/release-notes",
-            "tags": [
-                "notes",
-                "nodejs"
-            ]
+            "tags": ["notes", "nodejs"]
         },
         {
             "title": "awsnap",
