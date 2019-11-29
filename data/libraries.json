@@ -2,6 +2,13 @@
     "title": "Libraries",
     "id": "libraries",
     "items": [{
+            "title": "Unique Device ID Provider",
+            "description": "Generate a 64-bit hex string as an unique Android ID",
+            "url": "https://github.com/cesarferreira/android-unique-device-id",
+            "tags": [
+                "android"
+            ]
+        }, {
             "title": "tempo",
             "description": "⌚ Kotlin intuitive Date extensions.",
             "url": "https://github.com/cesarferreira/tempo",
