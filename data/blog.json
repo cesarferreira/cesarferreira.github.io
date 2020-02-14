@@ -2,6 +2,11 @@
     "title": "Blog posts",
     "id": "blog",
     "items": [{
+            "title": "Flutter MVVM architecture",
+            "description": "Using Dependency Injection (DI) + State Management + Repository Pattern",
+            "url": "https://medium.com/@cesarmcferreira/flutter-mvvm-architecture-using-dependency-injection-di-state-management-repository-pattern-92a4ef6ddfc3",
+            "tags": ["flutter", "mvvm", "android", "ios"]
+        }, {
             "title": "How to use the new Android coroutine viewModelScope in Clean Architecture",
             "description": "Binding the ViewModel lifecycle to your Use Cases",
             "url": "https://medium.com/@cesarmcferreira/how-to-use-the-new-android-viewmodelscope-in-clean-architecture-2a33aac959ee",
