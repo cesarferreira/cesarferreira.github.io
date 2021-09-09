@@ -2,6 +2,11 @@
     "title": "Tools",
     "id": "tools",
     "items": [{
+            "title": "robin",
+            "description": "Run scripts for any project",
+            "url": "https://github.com/cesarferreira/robin",
+            "tags": ["cli", "nodejs"]
+        },{
             "title": "chef-cli",
             "description": "Quickly convert things into other things",
             "url": "https://github.com/cesarferreira/chef-cli",

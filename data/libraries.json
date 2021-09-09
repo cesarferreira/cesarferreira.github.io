@@ -1,7 +1,15 @@
 {
     "title": "Libraries",
     "id": "libraries",
-    "items": [{
+    "items": [
+        {
+            "title": "UIState",
+            "description": "Cleanest way of representing UI state in a flutter widget.",
+            "url": "hhttps://github.com/cesarferreira/UIState",
+            "tags": [
+                "flutter"
+            ]
+        },{
             "title": "Unique Device ID Provider",
             "description": "Generate a 64-bit hex string as an unique Android ID",
             "url": "https://github.com/cesarferreira/android-unique-device-id",
