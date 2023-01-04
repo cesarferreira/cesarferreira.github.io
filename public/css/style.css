@@ -51,6 +51,11 @@
 	color: white;	
 }
 
+.flutter {
+	background-color: rgb(90, 216, 117) !important;
+	color: white;	
+}
+
 .ruby {
 	background-color: rgb(187, 10, 30) !important;
 	color: white;	
