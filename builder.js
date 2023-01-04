@@ -40,10 +40,10 @@ app.page(OUTPUT_FILE_PATH, {
 let templateData = {
     categories: [
         getObjFromFile('data/libraries.json'),
+        getObjFromFile('data/apps.json'),
         getObjFromFile('data/tools.json'),
         getObjFromFile('data/blog.json'),
         getObjFromFile('data/bots.json'),
-        getObjFromFile('data/misc.json'),
         getObjFromFile('data/contacts.json')
     ]
 };

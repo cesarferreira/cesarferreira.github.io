@@ -1,0 +1,42 @@
+{
+  "title": "Apps",
+  "id": "apps",
+  "items": [
+    {
+      "title": "Show up fitness",
+      "description": "Live workouts. On demand videos. Gym plans. Meal ideas and so much more.",
+      "url": "https://apps.apple.com/gb/app/show-up-fitness/id1574348694",
+      "tags": ["ios", "workout", "wellbeing", "live workouts"]
+    },
+    {
+      "title": "Quick Maths Kids",
+      "description": "Making mental arithmetic fun!",
+      "url": "https://apps.apple.com/us/app/quick-maths-kids/id6443560063",
+      "tags": ["flutter", "ios", "maths", "game"]
+    },{
+      "title": "Magic Masterclass",
+      "description": "Learn mind-blowing magic tricks that guarantee to amaze! Delivered by BAFTA award-winning magician Fergus Flanagan",
+      "url": "https://apps.apple.com/gb/app/magic-masterclass/id1638808547",
+      "tags": ["flutter", "ios", "magic"]
+    },
+    {
+      "title": "Live & Lift",
+      "description": "Fitness and Mindset App",
+      "url": "https://apps.apple.com/us/app/live-lift/id1578595344",
+      "tags": ["ios", "workout", "wellbeing"]
+    },
+
+    {
+      "title": "Talkie - Voice note messaging",
+      "description": "Press, hold and chat",
+      "url": "https://apps.apple.com/us/app/talkie-voice-note-messaging/id1564803851",
+      "tags": ["voice-chat", "ios"]
+    },
+    {
+      "title": "Night Night - Sleep Trainer",
+      "description": "Sleep training for your baby",
+      "url": "https://apps.apple.com/app/apple-store/id1483042303",
+      "tags": ["flutter", "ios", "baby", "app"]
+    }
+  ]
+}
